@@ -54,7 +54,7 @@
 .durtext {
     position: absolute;
     top: 15px;
-    right: 20px;
+    right: 10px;
     font-size: 0.9rem;
     font-weight: bold;
     color: white;
@@ -140,5 +140,20 @@
 
     .comp p {
         font-size: 0.9rem;
+    }
+}
+@media (max-width:1024px){
+    .durtext{
+        margin-left: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .exp-box {
+        height: 250px;
+    }
+    .exp-box img {
+        margin-bottom: 15px;
+        width: 200px;
+        height: 90px;
     }
 }
