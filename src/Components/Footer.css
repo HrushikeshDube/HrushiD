@@ -1,0 +1,23 @@
+.foot-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 80%;
+    margin: 70px auto;
+    background: linear-gradient(135deg, #FFF9FE, #F3E5F5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+.foot-section h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .foot-section{
+       margin-top: -70px;
+       width: 90%;
+    }
+}
