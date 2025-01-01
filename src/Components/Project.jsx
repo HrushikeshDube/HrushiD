@@ -18,7 +18,7 @@ const Project = () => {
       "github": "https://github.com/HrushikeshDube/Food_App"
   },
   {
-      "image": "./Assests/personalport.jpeg",
+      "image": "./Assests/port.png",
       "title": "DevIdentity",
       "desc": "DevIdentity is a personal portfolio website that showcases my skills, projects, and accomplishments as a developer. ",
       "github": "https://github.com/HrushikeshDube/HrushiD"
