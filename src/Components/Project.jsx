@@ -6,13 +6,13 @@ const Project = () => {
   // Inline JSON data
   const projects = [
     {
-      "image": "./Assests/info.jpeg",
+      "image": "./Assests/info.png",
       "title": "InfoHub Connect",
       "desc": "InfoHub Connect is a React Native app for college and library management, featuring real-time notifications, book reservations, event updates, and more.",
       "github": "https://github.com/HrushikeshDube/Infohub-Android-App-User"
   },
   {
-      "image": "./Assests/foodcourt.jpeg",
+      "image": "./Assests/foodcourt.png",
       "title": "Food Court",
       "desc": "The Food Court App is a React Native-based platform that enables seamless, contactless ordering and payment at food courts.",
       "github": "https://github.com/HrushikeshDube/Food_App"
