@@ -101,7 +101,10 @@
         width: 90%;
         padding: 40px 20px;
     }
-
+    .exp-container{
+        align-items: center;
+        justify-content: center;
+    }
     .exp-box {
         flex-direction: column;
         align-items: center;
