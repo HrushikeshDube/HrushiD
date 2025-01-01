@@ -107,11 +107,19 @@
   }
   @media (max-width: 1024px) {
     .project-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Reduce min width for smaller viewports */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 30px 30px;
     }
 
     .project-card {
-        max-width: 350px; /* Slightly smaller cards to fit better */
+        max-width: 800px; /* Slightly smaller cards to fit better */
+    }
+    #project-2 {
+      margin-bottom: 100px;
+    }
+    #project-3 {
+      height: 600px;
+      margin-top: -100px;
     }
 }
   /* Mobile View - Stacking Cards Vertically */
