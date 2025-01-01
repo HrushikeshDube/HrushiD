@@ -157,7 +157,8 @@
     .project-card {
       width: 100%; /* Make each card take full width */
       height: 400px; /* Set a consistent height for each card */
-      margin-bottom: 20px; /* Add space between the cards */
+      margin-bottom: 20px; 
+      padding-bottom: 20px;/* Add space between the cards */
     }
   
     /* Make the images fit well on smaller screens */
