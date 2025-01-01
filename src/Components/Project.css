@@ -11,13 +11,15 @@
   }
   
   .project-section h2 {
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid #ff6363;
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    padding-bottom: 5px;
-    width: 160px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 8px;
+    width: 200px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    color: #333;
   }
   
   .project-container {
@@ -31,7 +33,7 @@
   .project-card {
     width: 450px;
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     background-color: #fff;
@@ -48,7 +50,7 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border-radius: 8px;
+    border-bottom: 8px;
     margin-bottom: 15px;
   }
   
@@ -75,7 +77,7 @@
     text-decoration: none;
     background-color: #6FD7D9;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 1px;
     align-self: flex-start;
     margin-top: auto;
     margin-left: 10px;
@@ -113,10 +115,11 @@
       grid-template-columns: 350px 350px;
       justify-content: center;
     }
+    
     .project-card {
       width: 350px;
       border: 1px solid #ddd;
-      border-radius: 10px;
+      border-radius: 1px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
       background-color: #fff;
@@ -143,7 +146,11 @@
       align-items: center;
       gap: 20px;
     }
-  
+    .project-section h2 {
+      width: auto;
+      font-size: 18px;
+      margin-bottom: 15px;
+  }
     .project-card {
       width: 100%; /* Make each card take full width */
       height: 400px; /* Set a consistent height for each card */
@@ -172,21 +179,25 @@
       width: 100%; /* Make each card take full width */
       height: 460px; /* Set a consistent height for each card */
       margin-bottom: 20px; 
+      padding-bottom: 20px;
     }
     #project-1 {
       width: 100%; /* Make each card take full width */
       height: 360px; /* Set a consistent height for each card */
       margin-bottom: 20px; 
+      padding-bottom: 20px;
     }
     #project-2 {
       width: 100%; /* Make each card take full width */
       height: 360px; /* Set a consistent height for each card */
-      margin-bottom: 230px; 
+      margin-bottom: 230px;
+      padding-bottom: 20px; 
     }
     #project-3 {
       width: 100%; /* Make each card take full width */
       height: 460px; /* Set a consistent height for each card */
       margin-bottom: 20px; 
+      padding-bottom: 20px;
     }
     
 

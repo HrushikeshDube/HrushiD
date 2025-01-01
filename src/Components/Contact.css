@@ -10,13 +10,15 @@
 }
 
 .con-section h2 {
-  border-bottom: 2px solid red;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  padding-bottom: 5px;
-  width: 160px;
-  text-align: center;
-  margin-bottom: 30px;
+  border-bottom: 3px solid #ff6363;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 8px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 .social-con {
@@ -46,7 +48,11 @@
       margin-top: -70px;
       width: 90%;/* Further reduce padding for smaller devices */
   }
-
+  .con-section h2 {
+    width: auto;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
   .social-con {
       gap: 10px; /* Smaller gap between icons */
   }

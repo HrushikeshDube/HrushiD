@@ -9,7 +9,7 @@
     right: 0;
     padding: 10px 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 1px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     z-index: 1000;
     margin: 0 auto;
@@ -124,7 +124,7 @@
         left: 0;
         right: 0;
         background-color: #fff; /* Match navbar color */
-        border-radius: 10px;
+        border-radius: 1px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         z-index: 999;
         padding: 20px;
