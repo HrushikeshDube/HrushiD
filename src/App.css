@@ -1,3 +1,6 @@
 body{
     background-image: url(../Assests/svgbg.svg);
 }
+html {
+    scroll-behavior: smooth;
+  }
