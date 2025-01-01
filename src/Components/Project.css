@@ -91,6 +91,7 @@
   /* Unique Styling for Specific Cards */
   #project-0 {
     height: 600px;
+    padding-bottom: 18px;
   }
   #project-0 img {
     height: 70%;
@@ -98,11 +99,13 @@
   
   #project-1, #project-2 {
     height: 390px;
+    padding-bottom: 18px;
   }
   
   #project-3 {
     height: 600px;
     margin-top: -215px;
+    padding-bottom: 18px;
   }
   #project-3 img {
     height: 70%;

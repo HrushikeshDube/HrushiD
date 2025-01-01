@@ -12,7 +12,7 @@ const Project = () => {
       "github": "https://github.com/HrushikeshDube/Infohub-Android-App-User"
   },
   {
-      "image": "./Assests/foodcourt.png",
+      "image": "./Assests/foodcourt.jpeg",
       "title": "Food Court",
       "desc": "The Food Court App is a React Native-based platform that enables seamless, contactless ordering and payment at food courts.",
       "github": "https://github.com/HrushikeshDube/Food_App"
@@ -24,7 +24,7 @@ const Project = () => {
       "github": "https://github.com/HrushikeshDube/HrushiD"
   },
   {
-      "image": "./Assests/carbook.jpeg",
+      "image": "./Assests/carbook.png",
       "title": "Rent Cars",
       "desc": "The Car Booking Website is a user-friendly platform that allows customers to easily browse and reserve cars for rental. ",
       "github": "https://github.com/HrushikeshDube/Car-Booking-Website"
